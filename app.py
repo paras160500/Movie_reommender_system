@@ -4,8 +4,8 @@ import pandas as pd
 import requests
 from sklearn.metrics.pairwise import cosine_similarity
 
-vectors = pickle.load(open("vector_metrics.pkl" , "rb"))
-similarity = cosine_similarity(vectors)
+# vectors = 
+similarity = pickle.load(open("similarity.pkl" , "rb"))
 
 
 
